@@ -1,0 +1,18 @@
+
+
+LInk to SQL Database
+<connectionStrings>
+	 <add name="Tournaments" connectionString="Data Source=DESKTOP-JQKP6HG;Initial Catalog=Tournaments;Integrated Security=True;"
+		providerName="System.Data.SqlClient" />
+ </connectionStrings>
+
+ <configSections>
+ </configSections>
+
+Extra and unused code:
+
+TextConnnector >public Prizemodel>create prize
+currentId = prizes.OrderByDescending(x => x.PrizesID).First().PrizesID + 1;
+	<network host="192.168.0.13" userName="Shah" password="" port="25" enableSsl="false" />
+ToDO
+Look into a way to make the placenumber value unique
